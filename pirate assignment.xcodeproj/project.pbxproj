@@ -14,6 +14,20 @@
 		B4021A901B11C78C00D23D3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4021A8F1B11C78C00D23D3F /* Images.xcassets */; };
 		B4021A931B11C78C00D23D3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4021A911B11C78C00D23D3F /* LaunchScreen.xib */; };
 		B4021A9F1B11C78C00D23D3F /* pirate_assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4021A9E1B11C78C00D23D3F /* pirate_assignmentTests.m */; };
+		B43BE8301B155F1600291FE7 /* SSArmour.m in Sources */ = {isa = PBXBuildFile; fileRef = B43BE82F1B155F1600291FE7 /* SSArmour.m */; };
+		B43BE8331B155F2600291FE7 /* SSWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = B43BE8321B155F2600291FE7 /* SSWeapon.m */; };
+		B43BE8361B15605000291FE7 /* SSCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = B43BE8351B15605000291FE7 /* SSCharacter.m */; };
+		B43BE8391B157B4800291FE7 /* SSBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = B43BE8381B157B4800291FE7 /* SSBoss.m */; };
+		B43BE8421B15D1D300291FE7 /* apple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B43BE83A1B15D1D300291FE7 /* apple.jpeg */; };
+		B43BE8431B15D1D300291FE7 /* dead.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B43BE83B1B15D1D300291FE7 /* dead.jpeg */; };
+		B43BE8441B15D1D300291FE7 /* p1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B43BE83C1B15D1D300291FE7 /* p1.jpg */; };
+		B43BE8451B15D1D300291FE7 /* p2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B43BE83D1B15D1D300291FE7 /* p2.jpg */; };
+		B43BE8461B15D1D300291FE7 /* pship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B43BE83E1B15D1D300291FE7 /* pship.jpg */; };
+		B43BE8471B15D1D300291FE7 /* pship2.png in Resources */ = {isa = PBXBuildFile; fileRef = B43BE83F1B15D1D300291FE7 /* pship2.png */; };
+		B43BE8481B15D1D300291FE7 /* sw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B43BE8401B15D1D300291FE7 /* sw.jpg */; };
+		B43BE8491B15D1D300291FE7 /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B43BE8411B15D1D300291FE7 /* tiger.jpg */; };
+		B4A735CD1B1406ED00504D70 /* SSTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A735CC1B1406ED00504D70 /* SSTile.m */; };
+		B4A735D11B14084300504D70 /* SSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A735D01B14084300504D70 /* SSFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,26 @@
 		B4021A981B11C78C00D23D3F /* pirate assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pirate assignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4021A9D1B11C78C00D23D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4021A9E1B11C78C00D23D3F /* pirate_assignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pirate_assignmentTests.m; sourceTree = "<group>"; };
+		B43BE82E1B155F1600291FE7 /* SSArmour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSArmour.h; sourceTree = "<group>"; };
+		B43BE82F1B155F1600291FE7 /* SSArmour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSArmour.m; sourceTree = "<group>"; };
+		B43BE8311B155F2600291FE7 /* SSWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWeapon.h; sourceTree = "<group>"; };
+		B43BE8321B155F2600291FE7 /* SSWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWeapon.m; sourceTree = "<group>"; };
+		B43BE8341B15605000291FE7 /* SSCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCharacter.h; sourceTree = "<group>"; };
+		B43BE8351B15605000291FE7 /* SSCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCharacter.m; sourceTree = "<group>"; };
+		B43BE8371B157B4800291FE7 /* SSBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBoss.h; sourceTree = "<group>"; };
+		B43BE8381B157B4800291FE7 /* SSBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBoss.m; sourceTree = "<group>"; };
+		B43BE83A1B15D1D300291FE7 /* apple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpeg; sourceTree = "<group>"; };
+		B43BE83B1B15D1D300291FE7 /* dead.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dead.jpeg; sourceTree = "<group>"; };
+		B43BE83C1B15D1D300291FE7 /* p1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpg; sourceTree = "<group>"; };
+		B43BE83D1B15D1D300291FE7 /* p2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpg; sourceTree = "<group>"; };
+		B43BE83E1B15D1D300291FE7 /* pship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pship.jpg; sourceTree = "<group>"; };
+		B43BE83F1B15D1D300291FE7 /* pship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pship2.png; sourceTree = "<group>"; };
+		B43BE8401B15D1D300291FE7 /* sw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sw.jpg; sourceTree = "<group>"; };
+		B43BE8411B15D1D300291FE7 /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger.jpg; sourceTree = "<group>"; };
+		B4A735CB1B1406ED00504D70 /* SSTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTile.h; sourceTree = "<group>"; };
+		B4A735CC1B1406ED00504D70 /* SSTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTile.m; sourceTree = "<group>"; };
+		B4A735CF1B14084300504D70 /* SSFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFactory.h; sourceTree = "<group>"; };
+		B4A735D01B14084300504D70 /* SSFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +97,10 @@
 		B4021A761B11C78B00D23D3F = {
 			isa = PBXGroup;
 			children = (
+				B4A735C81B1405F000504D70 /* ViewControllers */,
+				B4A735CE1B14083100504D70 /* Factory */,
+				B4A735C91B14060700504D70 /* Model */,
+				B4A735CA1B14061000504D70 /* Views */,
 				B4021A811B11C78B00D23D3F /* pirate assignment */,
 				B4021A9B1B11C78C00D23D3F /* pirate assignmentTests */,
 				B4021A801B11C78B00D23D3F /* Products */,
@@ -83,9 +121,6 @@
 			children = (
 				B4021A861B11C78B00D23D3F /* AppDelegate.h */,
 				B4021A871B11C78B00D23D3F /* AppDelegate.m */,
-				B4021A891B11C78B00D23D3F /* ViewController.h */,
-				B4021A8A1B11C78B00D23D3F /* ViewController.m */,
-				B4021A8C1B11C78C00D23D3F /* Main.storyboard */,
 				B4021A8F1B11C78C00D23D3F /* Images.xcassets */,
 				B4021A911B11C78C00D23D3F /* LaunchScreen.xib */,
 				B4021A821B11C78B00D23D3F /* Supporting Files */,
@@ -96,6 +131,14 @@
 		B4021A821B11C78B00D23D3F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B43BE83A1B15D1D300291FE7 /* apple.jpeg */,
+				B43BE83B1B15D1D300291FE7 /* dead.jpeg */,
+				B43BE83C1B15D1D300291FE7 /* p1.jpg */,
+				B43BE83D1B15D1D300291FE7 /* p2.jpg */,
+				B43BE83E1B15D1D300291FE7 /* pship.jpg */,
+				B43BE83F1B15D1D300291FE7 /* pship2.png */,
+				B43BE8401B15D1D300291FE7 /* sw.jpg */,
+				B43BE8411B15D1D300291FE7 /* tiger.jpg */,
 				B4021A831B11C78B00D23D3F /* Info.plist */,
 				B4021A841B11C78B00D23D3F /* main.m */,
 			);
@@ -117,6 +160,50 @@
 				B4021A9D1B11C78C00D23D3F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4A735C81B1405F000504D70 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4021A891B11C78B00D23D3F /* ViewController.h */,
+				B4021A8A1B11C78B00D23D3F /* ViewController.m */,
+			);
+			name = ViewControllers;
+			path = "pirate assignment";
+			sourceTree = "<group>";
+		};
+		B4A735C91B14060700504D70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4A735CB1B1406ED00504D70 /* SSTile.h */,
+				B4A735CC1B1406ED00504D70 /* SSTile.m */,
+				B43BE82E1B155F1600291FE7 /* SSArmour.h */,
+				B43BE82F1B155F1600291FE7 /* SSArmour.m */,
+				B43BE8311B155F2600291FE7 /* SSWeapon.h */,
+				B43BE8321B155F2600291FE7 /* SSWeapon.m */,
+				B43BE8341B15605000291FE7 /* SSCharacter.h */,
+				B43BE8351B15605000291FE7 /* SSCharacter.m */,
+				B43BE8371B157B4800291FE7 /* SSBoss.h */,
+				B43BE8381B157B4800291FE7 /* SSBoss.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B4A735CA1B14061000504D70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4021A8C1B11C78C00D23D3F /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B4A735CE1B14083100504D70 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				B4A735CF1B14084300504D70 /* SSFactory.h */,
+				B4A735D01B14084300504D70 /* SSFactory.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +286,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43BE8441B15D1D300291FE7 /* p1.jpg in Resources */,
+				B43BE8421B15D1D300291FE7 /* apple.jpeg in Resources */,
+				B43BE8451B15D1D300291FE7 /* p2.jpg in Resources */,
+				B43BE8431B15D1D300291FE7 /* dead.jpeg in Resources */,
+				B43BE8461B15D1D300291FE7 /* pship.jpg in Resources */,
+				B43BE8481B15D1D300291FE7 /* sw.jpg in Resources */,
 				B4021A8E1B11C78C00D23D3F /* Main.storyboard in Resources */,
 				B4021A931B11C78C00D23D3F /* LaunchScreen.xib in Resources */,
+				B43BE8471B15D1D300291FE7 /* pship2.png in Resources */,
 				B4021A901B11C78C00D23D3F /* Images.xcassets in Resources */,
+				B43BE8491B15D1D300291FE7 /* tiger.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +316,13 @@
 			files = (
 				B4021A8B1B11C78B00D23D3F /* ViewController.m in Sources */,
 				B4021A881B11C78B00D23D3F /* AppDelegate.m in Sources */,
+				B43BE8331B155F2600291FE7 /* SSWeapon.m in Sources */,
+				B43BE8361B15605000291FE7 /* SSCharacter.m in Sources */,
+				B4A735D11B14084300504D70 /* SSFactory.m in Sources */,
+				B43BE8301B155F1600291FE7 /* SSArmour.m in Sources */,
 				B4021A851B11C78B00D23D3F /* main.m in Sources */,
+				B4A735CD1B1406ED00504D70 /* SSTile.m in Sources */,
+				B43BE8391B157B4800291FE7 /* SSBoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +351,7 @@
 				B4021A8D1B11C78C00D23D3F /* Base */,
 			);
 			name = Main.storyboard;
+			path = "pirate assignment";
 			sourceTree = "<group>";
 		};
 		B4021A911B11C78C00D23D3F /* LaunchScreen.xib */ = {
@@ -414,6 +516,7 @@
 				B4021AA41B11C78C00D23D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4021AA51B11C78C00D23D3F /* Build configuration list for PBXNativeTarget "pirate assignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +525,7 @@
 				B4021AA71B11C78C00D23D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
